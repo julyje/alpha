@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>box model</title>
+		<meta charset="utf-8">
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+			h1 {
+				border: 5px solid red;
+				width: 500px;
+				height: 300px;
+				box-shadow: 10px 90px
+					px 5px -20px red;
+			}
+					/*5px=blurred
+					20px=spread*/
+			.p1 {
+				border: 5px solid red;
+				/*dotted dashed solid
+				border-style: solid;
+				border-color: code
+				border-width: 5px
+				
+				border-top: 3px dotted color code;
+				border-left: 5px solid green;
+
+				*/
+				/*no border in 2 ways
+				border: none;
+				border: 0;
+				*/
+				padding-top: 50px;
+				padding-bottom: 20px;
+				padding-left:80px;
+				padding-right: 65px;
+				margin-left: auto;
+				margin-right: auto;
+				/*auto=center*/
+				min-width: 500px;
+				/*min=at least 500px*/
+				max-height: 200px;
+				overflow: hidden;
+				/*max=max*/
+				/*hidden, visible, scroll(have scroll under every condition, auto*/
+			}
+			.p2{
+				border: 5px solid red;
+				padding: 50px 65px 20px 80px;
+				margin: 50px;
+				/*top bottom    left right*/
+			}
+			.p3{
+				width: 300px;
+				height: 200px;
+				padding; 35px;
+				border: 5px solid red;
+				box-sizing: border-box;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>title</h1>
+		<p class="p1">am i losing touch</p>
+		<p class="p2">did a build this ship to wreck</p>
+		<p class="p3">to wreck, to wreck, to wreck</p>

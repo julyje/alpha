@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>hover</title>
+	<style>
+	h1{
+		color: orange;
+	}
+	h1:hover {
+		color: green;
+	}
+</style>
+
+</head>
+<body>
+	<h1>JE</h1>
+	<p>explanation <b><i>birth</b></i> <br/>
+	another explanation</p>
+	<a href="www.google.co.kr">
+
+</body>
+</html>

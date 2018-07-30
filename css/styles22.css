@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  min-width: 768px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* side navbar */
+
+#side-navbar {
+  background-color: black;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  text-align: center;
+  padding-top: 30px;
+  display: inline-block;
+}
+
+.logo{
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.channel{
+  float: left;
+  color: white;
+  display: block;
+  text-align: center;
+  margin: 30px;
+}
+
+.promote{
+  display: inline-block;
+  float: left;
+  text-align: center
+}
+
+/* 코드를 입력하세요! */
+
+/* main */
+
+#main {
+  margin-left: 250px;
+}
+
+#main .hero-header {
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  height: 750px;
+  line-height: 750px;
+}
+
+#main .info {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+#main h1 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 60px;
+  float: left;
+  text-align: center;
+}
+
+#main a {
+  padding: 10px 40px;
+  border: 2px solid white;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}

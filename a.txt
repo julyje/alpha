@@ -1,0 +1,108 @@
+goothanks
+suhojalove
+diria
+
+
+
+
+10-2 10-4 10-8
+11-2 11-5
+12-3 12-5 
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>코드잇</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+</head>
+<body>
+  <div id="navbar">
+    <a id="logo" href="#">
+      x <!-- 이건 지우세요 -->
+      <img src="images/logo.png" height="25">
+    </a>
+  </div>
+    
+  <div class="hero-header">
+    <div class="info">
+      <h1><b>코딩</b>, 스펙이 아니라 <b>필수</b>입니다.</h1>
+      <h2>코드잇은 코딩을 통해 생각하는 법을 가르칩니다.</h2>
+      <a href="#">더 알아보기</a>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#navbar {
+  padding: 0 20px;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+  height: 60px;
+}
+
+#logo {
+  font-family: serif;
+  float: left;
+
+  /* 이건 지우세요 */
+  background-color: orange;
+}
+
+.hero-header {
+  background-image: url("../images/hero_image.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 670px;
+  text-align: center;
+}
+
+.hero-header .info {
+  /* 이건 지우세요 */
+  background-color: orange;
+}
+
+.hero-header .info h1 {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 13px;
+  color: white;
+  font-weight: 400;
+}
+
+.hero-header .info h2 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 60px;
+  color: white;
+  font-weight: 400;
+}
+
+.hero-header .info a {
+  font-size: 14px;
+  background-color: white;
+  color: #464273;
+  padding: 10px 40px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
